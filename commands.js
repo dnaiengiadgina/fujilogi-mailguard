@@ -52,10 +52,10 @@ function onMessageSendHandler(event) {
     // ダイアログを開く
     const dialogUrl = Office.context.mailbox.ewsUrl
       ? window.location.origin + "/dialog.html"
-      : "https://YOUR_GITHUB_USERNAME.github.io/fujilogi-mailguard/dialog.html";
+      : "https://dnaiengiadgina.github.io/fujilogi-mailguard/dialog.html";
 
     Office.context.ui.displayDialogAsync(
-      "https://YOUR_GITHUB_USERNAME.github.io/fujilogi-mailguard/dialog.html",
+      "https://dnaiengiadgina.github.io/fujilogi-mailguard/dialog.html",
       { height: 70, width: 50, displayInIframe: false },
       function (asyncResult) {
         if (asyncResult.status === Office.AsyncResultStatus.Failed) {
