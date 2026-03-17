@@ -135,4 +135,5 @@ function getBodyAsync(item) {
 }
 
 // Office.js へ関数を登録
+Office.onReady();
 Office.actions.associate("onMessageSendHandler", onMessageSendHandler);
